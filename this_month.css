@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Martian+Mono&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #4F5C28;
+}
+
+body {
+    background-color:#F6F3F0 ;
+}
+.header {
+    margin-top: 50px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    float: right;
+}
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
+.nav a:hover {
+    color: #F0AA28;
+}
+.nav li {
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 70px;
+}
+ul, li {
+    list-style: none;
+}
+h1 {
+    font-weight: 400;
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+.this_month {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.column {
+    flex: 2;
+}
+.bolded {
+    font-weight: bold;
+    font-size: 25px;
+    color: #F3B7C1;
+}
+.main_image {
+    text-align: center;
+}
+.main_text p {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 500px;
+}
+.fact {
+    padding-top: 40px;
+}
+.month_animal1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding-top: 100px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text1 {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+.bolded1 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4F5C28;
+}
+.january h2 {
+    text-align: center;
+}
+.january img {
+    padding-top: 20px;
+}
+.february h2 {
+    text-align: center;
+}
+.february img {
+    padding-top: 20px;
+}
+.march h2 {
+    text-align: center;
+}
+.march img {
+    padding-top: 20px;
+}
+.month_animal2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding-top: 100px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.april h2 {
+    text-align: center;
+}
+.april img {
+    padding-top: 20px;
+}
+.may h2 {
+    text-align: center;
+}
+.may img {
+    padding-top: 20px;
+}
+.june h2 {
+    text-align: center;
+}
+.june img {
+    padding-top: 20px;
+}
+.month_animal3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding-top: 100px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.july h2 {
+    text-align: center;
+}
+.july img {
+    padding-top: 20px;
+}
+.august h2 {
+    text-align: center;
+}
+.august img {
+    padding-top: 20px;
+}
+.september h2 {
+    text-align: center;
+}
+.september img {
+    padding-top: 20px;
+}
+.month_animal4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding-top: 100px;
+    padding-bottom: 80px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.october h2 {
+    text-align: center;
+}
+.october img {
+    padding-top: 20px;
+}
+.november h2 {
+    text-align: center;
+}
+.november img {
+    padding-top: 20px;
+}
+.december h2 {
+    text-align: center;
+}
+.december img {
+    padding-top: 20px;
+}
+footer {
+    font-size: 12px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background: url(images/footer.png) repeat-x scroll top transparent;
+    overflow: hidden;
+    background-size: cover;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.footerleft{
+    text-align:left;
+}
+.footerleft p {
+    padding-top: 12px;
+}
+.footerright {
+   text-align: right;
+   font-size: 12px;
+}
+.footer_text {
+    display: flex;
+    padding-top: 20px;
+}
+.footer_text p{
+    max-width: 280px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.social_image img {
+    padding-left: 20px;
+}

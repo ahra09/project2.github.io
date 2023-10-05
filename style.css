@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Martian+Mono&family=Roboto+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #4F5C28;
+}
+
+body {
+    background-color:#F6F3F0 ;
+}
+.header {
+    margin-top: 50px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    float: right;
+}
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
+.nav a:hover {
+    color: #F0AA28;
+}
+.nav li {
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 70px;
+}
+ul, li {
+    list-style: none;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 0px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+.main_image {
+    float: right;
+    flex-wrap: wrap;
+    padding-top: 90px;
+}
+.text {
+    flex: 10%;
+    line-height: 1.5;
+    padding-top: 100px;
+}
+.text p {
+    padding-top: 30px;
+    line-height: 1.5;
+    max-width: 590px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text h1 {
+    font-weight: 400;
+    font-size: 40px;
+}
+.title {
+    font-size: 30px;
+}
+.paragraph {
+    padding-top: 30px;
+}
+ .main img {
+
+     position: relative;
+     top: -12px;
+ }
+ footer {
+    font-size: 12px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background: url(images/footer.png) repeat-x scroll top transparent;
+    overflow: hidden;
+    background-size: cover;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.footerleft{
+    text-align:left;
+}
+.footerleft p {
+    padding-top: 12px;
+}
+.footerright {
+   text-align: right;
+   font-size: 12px;
+}
+.footer_text {
+    display: flex;
+    padding-top: 20px;
+}
+.footer_text p{
+    max-width: 280px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.social_image img {
+    padding-left: 20px;
+}
